@@ -80,4 +80,13 @@ pers = int(pers)
 pribpers = prib / pers  #количество прибыли на одного сотрудника
 print(pribpers)
 
+Пункт №7
+
+a = int(input())
+b = int(input())
+days =1
+while a < b:
+    a = a * 1.1
+    days += 1
+print(days)
 #the end)
