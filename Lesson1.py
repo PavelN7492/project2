@@ -66,21 +66,21 @@
 
 # Пункт №6
 
-vir = input('Введите выручку : ') #доход
-zat = input('Введите затраты : ') #расход
+#vir = input('Введите выручку : ') #доход
+#zat = input('Введите затраты : ') #расход
 
-vir = int(vir)
-zat = int(zat)
-prib = vir - zat  #прибыль
-rent = vir / prib #рентабельность
+#vir = int(vir)
+#zat = int(zat)
+#prib = vir - zat  #прибыль
+#rent = vir / prib #рентабельность
 #print(rent)
 
-pers = input('Количество сотрудников : ')
-pers = int(pers)
-pribpers = prib / pers  #количество прибыли на одного сотрудника
-print(pribpers)
+#pers = input('Количество сотрудников : ')
+#pers = int(pers)
+#pribpers = prib / pers  #количество прибыли на одного сотрудника
+#print(pribpers)
 
-Пункт №7
+# Пункт №7
 
 a = int(input())
 b = int(input())
@@ -89,4 +89,5 @@ while a < b:
     a = a * 1.1
     days += 1
 print(days)
+
 #the end)
